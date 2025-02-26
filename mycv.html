@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>专业简历模板</title>
+    <style>
+        /* 全局样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        /* 简历容器 */
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+        }
+        
+        /* 标题样式 */
+        h1, h2, h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        h1 {
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        
+        h2 {
+            font-size: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        
+        h3 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        
+        /* 联系信息 */
+        .contact-info {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        
+        .contact-info p {
+            margin-bottom: 5px;
+            color: #666;
+        }
+        
+        /* 简历部分 */
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        /* 简历条目 */
+        .entry {
+            margin-bottom: 20px;
+        }
+        
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        
+        .entry-title {
+            font-weight: bold;
+        }
+        
+        .entry-date {
+            color: #777;
+        }
+        
+        .entry-content {
+            padding-left: 5px;
+        }
+        
+        /* 技能部分 */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+        }
+        
+        .skill-item {
+            background-color: #f2f2f2;
+            border-radius: 15px;
+            padding: 5px 12px;
+            margin: 5px;
+            font-size: 14px;
+        }
+        
+        /* 工作经历和项目部分 */
+        .work-details, .project-details {
+            padding-left: 15px;
+        }
+        
+        /* 打印样式优化 */
+        @media print {
+            body {
+                background-color: #fff;
+                padding: 0;
+            }
+            
+            .resume-container {
+                box-shadow: none;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- 个人信息 -->
+        <section class="section">
+            <h1>你的姓名</h1>
+            <div class="contact-info">
+                <p>电话: 你的电话号码 | 邮箱: 你的邮箱地址</p>
+                <p>所在城市 | 你的个人网站/LinkedIn(可选)</p>
+            </div>
+        </section>
+        
+        <!-- 个人简介 -->
+        <section class="section">
+            <h2>个人简介</h2>
+            <p>在这里添加一段简短的个人介绍，概述你的专业背景、主要技能和职业目标。尽量控制在3-5句话之内，突出你最有价值的特点和能力。</p>
+        </section>
+        
+        <!-- 工作经历 -->
+        <section class="section">
+            <h2>工作经历</h2>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <h3 class="entry-title">公司名称 - 职位名称</h3>
+                    <span class="entry-date">起止日期</span>
+                </div>
+                <div class="entry-content">
+                    <p>公司/职位简要描述</p>
+                    <ul class="work-details">
+                        <li>工作职责或成就描述一</li>
+                        <li>工作职责或成就描述二</li>
+                        <li>工作职责或成就描述三</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <h3 class="entry-title">公司名称 - 职位名称</h3>
+                    <span class="entry-date">起止日期</span>
+                </div>
+                <div class="entry-content">
+                    <p>公司/职位简要描述</p>
+                    <ul class="work-details">
+                        <li>工作职责或成就描述一</li>
+                        <li>工作职责或成就描述二</li>
+                        <li>工作职责或成就描述三</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 教育背景 -->
+        <section class="section">
+            <h2>教育背景</h2>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <h3 class="entry-title">学校名称 - 学位专业</h3>
+                    <span class="entry-date">起止日期</span>
+                </div>
+                <div class="entry-content">
+                    <p>GPA (如适用) | 相关荣誉或奖项</p>
+                    <p>相关课程: 课程名称一, 课程名称二, 课程名称三</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 项目经验 -->
+        <section class="section">
+            <h2>项目经验</h2>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <h3 class="entry-title">项目名称</h3>
+                    <span class="entry-date">项目时间</span>
+                </div>
+                <div class="entry-content">
+                    <p>项目简要描述</p>
+                    <ul class="project-details">
+                        <li>项目职责或成就描述一</li>
+                        <li>项目职责或成就描述二</li>
+                        <li>项目职责或成就描述三</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 专业技能 -->
+        <section class="section">
+            <h2>专业技能</h2>
+            
+            <div class="entry">
+                <h3>技术技能</h3>
+                <ul class="skills-list">
+                    <li class="skill-item">技能一</li>
+                    <li class="skill-item">技能二</li>
+                    <li class="skill-item">技能三</li>
+                    <li class="skill-item">技能四</li>
+                    <li class="skill-item">技能五</li>
+                </ul>
+            </div>
+            
+            <div class="entry">
+                <h3>语言能力</h3>
+                <ul class="skills-list">
+                    <li class="skill-item">中文 (母语)</li>
+                    <li class="skill-item">英语 (熟练)</li>
+                    <li class="skill-item">其他语言 (程度)</li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- 证书与资格 -->
+        <section class="section">
+            <h2>证书与资格</h2>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <h3 class="entry-title">证书名称</h3>
+                    <span class="entry-date">获得日期</span>
+                </div>
+                <div class="entry-content">
+                    <p>颁发机构 | 有效期限（如适用）</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
